@@ -188,17 +188,18 @@ a.lang-toggle {
 }
 
 a.external:hover {
-  color: var(--bright-tag-green);
+  /*color: var(--bright-tag-green);*/
+  color: var(--text-muted);
   text-decoration: underline; /* optional */
 }
 
 a.external_icon:hover {
-  color: var(--bright-tag-green);
+  color: var(--text-muted);
   transform: translateY(-1px);
 }
 
 a.lang-toggle:hover {
-  color: var(--bright-tag-green);
+  color: var(--text-muted);
   transform: translateY(-1px);
   text-decoration: none;
 }
@@ -212,17 +213,18 @@ a.lang-toggle:hover {
 }
 
 .tag {
-  background:#ffffffa8; 
+  background:#ffff; 
   color: var(--bg-main);
-  padding: 6px 14px;
-  border-radius: 20px;
+  padding: 3px 8px;
+  border-radius: 3px;
   font-size: 0.85rem;
   font-weight: 500;
-  transition: all 0.2s ease;
+  transition: all 0.1s ease;
 }
 
 .tag:hover {
-  background: var(--bright-tag-green);
+  background: #0000;
+  color: #ffff;
   transform: translateY(-1px);
 }
 
